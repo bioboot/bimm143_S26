@@ -12,10 +12,11 @@ barry:
     : [Prof. Barry J. Grant](http://thegrantlab.org/) (Email: <bjgrant@ucsd.edu>)
 
     Instructional Assistants
-    : Aria Loduca (Email: <floduca@ucsd.edu>)    
+    : David Ferranti (Email: <dferranti@ucsd.edu>)  
+    : Chen Hsiao (Email: <c1hsiao@ucsd.edu>)    
 
     Course Syllabus
-    : [Fall 2025 (PDF)](https://bioboot.github.io/bimm143_F25/class-material/BIMM143_F25_syllabus.pdf){:.no-push-state}
+    : [Winter 2026 (PDF)](https://bioboot.github.io/bimm143_W26/class-material/BIMM143_W26_syllabus.pdf){:.no-push-state}
     {:.message}
 
   # This photo will be used in the homepage (about section)
@@ -34,8 +35,8 @@ barry:
   # Comment/uncommet to show/hide
   # Icons appear in order, can be rearranged:
   social:
-    piazza:          &piazza   https://piazza.com/ucsd/fall2025/bimm143/info  
-    gradescope:      &gradescope https://www.gradescope.com/courses/1118435    
+    piazza:          &piazza   https://piazza.com/ucsd/winter20256/bimm143/  
+    gradescope:      &gradescope https://www.gradescope.com/courses/1195061    
     youtube:         &youtube https://www.youtube.com/playlist?list=PLtYfizZe9rnrI-6BFsUqKTX7F2zebfCIQ
     email:           mailto:<bjgrant@ucsd.edu>
     #twitter:         barryjgrant
@@ -64,12 +65,12 @@ ileena:
 #   a *piazza later in this ymal data file.
 #  TODO: uodate GRADEBOOK student and instructor link & OFICEHOUR
 corelinks:
-  syllabus:       &syllabus /class-material/BIMM143_F25_syllabus.pdf
+  syllabus:       &syllabus /class-material/BIMM143_W26_syllabus.pdf
   piazza:         *piazza 
   gradescope:     *gradescope 
   youtube:        *youtube 
   questionnaire:  https://forms.gle/9FKDzd4z5Rh3RhEE6
   gradebook:      https://docs.google.com/spreadsheets/d/1_2tD08pwSTva5FNQ3_WzgOLIkupgJUI-ym3r9UyH0Tk/edit?usp=sharing
   officehours:    https://ucsd.zoom.us/j/97520924322?pwd=OWwycDlZakpFNU9uRjVqOGw2c0xqZz09#success
-  officetime:     'After class on Thur @ 12:10pm'
+  officetime:     'Thur @ 12:10pm in TATA-2501'
 

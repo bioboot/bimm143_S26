@@ -25,13 +25,13 @@ title:               BIMM 143
 # Set to `https://<username>.github.io` when hosting on GitHub Pages
 url:                 https://bioboot.github.io
 
-quarter: F25
+quarter: W26
 
 # Set to '' when hosting a blog on GitHub Pages, ie on `//<username>.github.io`
 # Set to '/<reponame>' when using the `gh-pages` branch of a repository
 #baseurl:             ''
 #baseurl: /bimm143_{{ site.quarter }}
-baseurl:             /bimm143_F25  ### !!!EDIT BY HAND!!!
+baseurl:             /bimm143_W26  ### !!!EDIT BY HAND!!!
 
 # Sidebar image and fallback color (note you can have a page specific sidebar image and color from yml)
 image: https://bioboot.github.io/bimm143_F25/assets/img/dna.jpg
