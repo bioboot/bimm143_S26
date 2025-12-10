@@ -58,11 +58,11 @@ Please help us improve this course by completing these surveys before and after 
 ## Acknowledgments:
 In addition to working on personal laptops we will also be using remote supercomputing resources for analyzing bioinformatics data at scale. Our use of these resources is kindly supported by [NSF/XSEDE](https://www.xsede.org/) grant allocation TG-BIO170077.  
 
-[![xsede]({{ site.baseurl }}/jetstream/images/xsede.png)](https://jetstream-cloud.org/){:.no-push-state}  
+[![National Science Foundation XSEDE program logo]({{ site.baseurl }}/jetstream/images/xsede.png)](https://jetstream-cloud.org/){:.no-push-state}  
 
 To further support learning data analysis with the R environment we gratefully acknowledge support from [DataCamp](https://www.datacamp.com/). DataCamp are providing our enrolled students with access to over 300 hours of data science videos and interactive coding challenges aimed at strengthening their data science skills.  
 
-[![datacamp]({{ site.baseurl }}/jetstream/images/DataCamp.png)](https://www.datacamp.com/){:.no-push-state}  
+[![DataCamp online learning environment logo]({{ site.baseurl }}/jetstream/images/DataCamp.png)](https://www.datacamp.com/){:.no-push-state}  
 
 
 ## Additional key resources  
@@ -76,7 +76,7 @@ Key resources for students in this class include:
 
 - [Schedule]({{ site.baseurl }}/schedule/) complete listing of class related material.  
 
-- [Syllabus]({{ site.baseurl}}{{site.data.authors.corelinks.syllabus}}){:.no-push-state}{:target="_blank"}  PDF format guide to the course.
+- [Syllabus in PDF format]({{ site.baseurl}}{{site.data.authors.corelinks.syllabus}}){:.no-push-state}{:target="_blank"}  guide to the course.
 
 
 Note that these resources are also linked to at the bottom of the navigation sidebar found on every page via the Q&A, GradeScope, YouTube and email icons.   
