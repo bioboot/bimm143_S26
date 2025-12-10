@@ -1,6 +1,7 @@
 $gray: #9a9a9a;
 $gray-bg: #f9f9f9;
-$gray-text: #787878;
+// $gray-text: #787878;  // Old light gray text
+$gray-text: #595959;     // New 7.0:1 contrast ratio - passes WCAG 2.1 AA and AAA
 
 $root-font-size: 16px;
 $root-font-size-medium: 17px;
