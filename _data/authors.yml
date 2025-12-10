@@ -19,10 +19,10 @@ barry:
     : [Winter 2026 (PDF)](https://bioboot.github.io/bimm143_W26/class-material/BIMM143_W26_syllabus.pdf){:.no-push-state}
     {:.message}
 
-  # This photo will be used in the homepage (about section)
+  # This logo/image will be used on the homepage (about section see _layouts/authos.html)
   picture:
     src:   https://bioboot.github.io/bimm143_F25/assets/img/logo.png
-    alt: "BIMM 143 course logo for UC San Diego Bioinformatics class"
+    alt:   "BIMM143 course logo image"
     
 #  N.B. You can not use liquid variables in data files :-( 
 #       so the below will not work
@@ -31,7 +31,7 @@ barry:
 ##    src:             /bimm143_S25/assets/img/logo.png
 
   # Social media icons in sidebar
-  # **** THESE NEED UPDATING FOR EACH COURSE ****
+  # **** THESE URLs NEED UPDATING FOR EACH COURSE ****
   #
   # Comment/uncommet to show/hide
   # Icons appear in order, can be rearranged:
@@ -63,7 +63,7 @@ ileena:
 #   Links to class resources that are linked to frequently such as piazza etc.
 #   These should be updated for each new quarter/class.
 #   The ampsand &piazza here is a varable asignment that can be access with 
-#   a *piazza later in this ymal data file.
+#   a *piazza later in this yml data file.
 #  TODO: uodate GRADEBOOK student and instructor link & OFICEHOUR
 corelinks:
   syllabus:       &syllabus /class-material/BIMM143_W26_syllabus.pdf
