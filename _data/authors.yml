@@ -22,7 +22,7 @@ barry:
   # This logo/image will be used on the homepage (about section see _layouts/authos.html)
   picture:
     src:   https://bioboot.github.io/bimm143_F25/assets/img/logo.png
-    alt:   "BIMM143 course logo image"
+    alt:   "BIMM143 course logo"
     
 #  N.B. You can not use liquid variables in data files :-( 
 #       so the below will not work
