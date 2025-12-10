@@ -48,7 +48,7 @@ We will use in-person and [Zoom](https://ucsd.zoom.us/){:target="_blank"} on a w
 There is no textbook for the course. Lecture notes, homework assignments, grading criteria, video lectures, hands-on session screencasts and required reading material will be available from this public facing course website.  
 
 ## Syllabus:  
-A detailed [syllabus]({{ site.baseurl}}{{site.data.authors.corelinks.syllabus}}){:.no-push-state} with topic outlines and learning goals is available for download.
+A detailed [syllabus in accessible PDF format]({{ site.baseurl}}{{site.data.authors.corelinks.syllabus}}){:.no-push-state} with topic outlines and learning goals is available for download.
 
 ## Surveys:
 Please help us improve this course by completing these surveys before and after the course. Thank you!
