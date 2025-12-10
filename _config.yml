@@ -52,7 +52,8 @@ author:
   name:              Barry Grant
   email:             bjgrant@ucsd.edu
 
-color:               '#4f86aa'
+# color:               '#4f86aa' 
+color:               '#4f86aa' # Update to darker blue for WCAG-AA compliance. 
 
 # The font used for headings. Expects a string that is a valid CSS font-family value.
 font_heading:        "'Roboto Slab', Helvetica, Arial, sans-serif"
