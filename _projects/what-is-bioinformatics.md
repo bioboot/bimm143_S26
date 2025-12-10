@@ -3,7 +3,8 @@ layout: video
 title: What is Bioinformatics?
 date: 20 Mar 2023
 screenshot:
-   src: http://i3.ytimg.com/vi/gJNXQfpErLY/maxresdefault.jpg
+   src: https://i3.ytimg.com/vi/gJNXQfpErLY/maxresdefault.jpg
+   alt: "Thumbnail from what is bioinformatics video"
 #  src: {{site.baseurl}}/assets/img/02_screenshot.png
 #  srcset:
 #    1920w: https://qwtel.com/hydejack/assets/img/projects/hydejack-v6.jpg
