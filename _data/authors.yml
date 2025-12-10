@@ -22,7 +22,8 @@ barry:
   # This photo will be used in the homepage (about section)
   picture:
     src:   https://bioboot.github.io/bimm143_F25/assets/img/logo.png
-
+    alt: "BIMM 143 course logo for UC San Diego Bioinformatics class"
+    
 #  N.B. You can not use liquid variables in data files :-( 
 #       so the below will not work
 ##    src:             '{{ site.baseurl }}/assets/img/logo.png'
