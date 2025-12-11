@@ -23,8 +23,8 @@ Teaching toward the specific learning goals below is expected to occupy 60%-70% 
 All students who receive a passing grade should be able to:
 
 
-|   |   | Lecture(s): |
-|----|----|----| 
+| \# | Goals | Lecture(s): |
+|:---:|:----|----| 
 |1  | Appreciate and describe in general terms the role of computation in hypothesis-driven discovery processes within the life sciences. | 1, 2, 20 |
 | 2 | Be able to query, search, compare and contrast the data contained in major bioinformatics databases and describe how these databases intersect (GenBank, GENE, UniProt, PFAM, OMIM, PDB, UCSC, ENSEMBLE). | 2, 12, 13 |
 | 3 | Describe how nucleotide and protein sequence and structure data are represented (FASTA, FASTQ, GenBank, UniProt, PDB). | 3, 10 |
