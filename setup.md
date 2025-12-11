@@ -13,10 +13,10 @@ comments: true
 Students in this course will learn that Bioinformatics frequently requires analyzing large complex datasets. The recommended approach to such analysis is to work with a computer that offers **UNIX** integration. Together we will lean the fundamentals of the UNIX command line and the R environment for data analysis and graphics.
 
 
-### Student Computers & Software Setup Instructions
+## Student Computer Setup Instructions
 To fully participate in this course students will need access to a modern computer to which they have administrator privileges (that is a computer where they can install software without restriction).  
 
-I much prefer **Mac** and Linux based computers as they already have a UNIX base.  If you can, please use one of these.  However, don't worry if you are running Windows as we will be able to login to a campus based UNIX machine from your laptop or windows desktop for classwork. Chromebooks and iPads will not work for this class.
+I much prefer **Mac** and Linux based computers as they already have a UNIX base.  If you can, please use one of these.  However, don't worry if you are running Windows as we will be able to login to a campus based UNIX machine from your laptop or windows desktop for classwork. **Chromebooks and iPads will not work for this class**.
 
 Regardless of your computer type you will need to install the software described below.
 

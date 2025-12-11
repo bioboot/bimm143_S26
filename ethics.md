@@ -7,7 +7,7 @@ order: 7
 
 Generative AI technologies such as ChatGPT, Claude, GitHub Copilot, NoteBookLM and TritonGPT (see next section) are rapidly becoming part of professional practice in bioinformatics. In this course, I will encourage you to engage with these tools, and in some assignments you will be required to use them. Learning to use AI effectively is an emerging skill, and I will provide resources and guidance as required. I am also available to discuss effective and ethical AI use strategies during office hours.  
 
-### Expectations for AI Use
+## Expectations for AI Use
 *Encouraged Use:* You may use AI to explore ideas, test knowledge, generate code, improve writing, or visualize concepts. AI can help you experiment, avoid simple errors, and deepen your engagement with the course material.  
 
 *Critical Responsibility:* AI outputs may contain errors, bias, or repetition, and often need refinement. You are responsible for validating information, testing code thoroughly, and ensuring your final submission meets the standards of the course.  
