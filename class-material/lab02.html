@@ -2348,7 +2348,6 @@ font-size: 0.95rem;
 <li><p><strong>Interpret</strong> the output of a completed scoring matrix to identify optimal alignments and recognize when multiple optimal solutions exist.</p></li>
 <li><p><strong>Use</strong> NCBI BLAST to search protein databases for homologous sequences, applying appropriate filters and database selections to refine results.</p></li>
 <li><p><strong>Evaluate</strong> BLAST results critically, considering E-values, percent identity, and query coverage to assess the biological significance of reported matches.</p></li>
-<li><p><strong>Recognize</strong> the detection limits of standard BLAST searches for identifying remote homologs, particularly in the “twilight zone” of sequence similarity (18-25% identity).</p></li>
 </ol>
 <p><br>
 </p>
@@ -2382,6 +2381,8 @@ Figure 1: Interactive dot plot web app to explore fundamental concepts of biomo
 </figcaption>
 </figure>
 </div>
+<p><br>
+</p>
 <div class="callout callout-style-simple callout-important no-icon">
 <div class="callout-body d-flex">
 <div class="callout-icon-container">
@@ -2497,7 +2498,7 @@ Tip
 Sequence 2: AGTTC</p>
 <p><br>
 </p>
-<p>From your completed table what is the <strong>optimal score</strong> and corresponding <strong>alignment</strong> (with one sequence above the other)?</p>
+<p>From your completed table (see template below) what is the <strong>optimal score</strong> and corresponding <strong>alignment</strong> (with one sequence above the other)?</p>
 <div class="callout callout-style-default callout-tip callout-titled">
 <div class="callout-header d-flex align-content-center collapsed" data-bs-toggle="collapse" data-bs-target=".callout-5-contents" aria-controls="callout-5" aria-expanded="false" aria-label="Toggle callout">
 <div class="callout-icon-container">
@@ -2515,11 +2516,16 @@ Tip
 </div>
 </div>
 <p><br>
+Optimal Score:<br>
+Alignments:<br>
 </p>
 </div>
 </div>
 </div>
 <p><br>
+</p>
+<p><br>
+<br>
 </p>
 </section>
 <section id="section-3-practice-makes-perfect" class="level2">
@@ -2538,6 +2544,11 @@ Tip
 <p>Sequence 1: TATAG<br>
 Sequence 2: GTTAC</p>
 <p><br>
+</p>
+<p><br>
+Optimal Score:<br>
+Alignments:<br>
+<br>
 </p>
 </div>
 </div>
@@ -2717,7 +2728,7 @@ ALAHKYH</code></pre>
 </section>
 <section id="discussion" class="level2">
 <h2 class="anchored" data-anchor-id="discussion">Discussion</h2>
-<p>Many useful ‘rules of thumb’ are expressed in terms of percent identity. If two proteins have more than 45% identical residues in their optimal alignment they typically have very similar structures and are likely to have a similar function. If two proteins have more than 25% identical residues (but less than 45% identity), they are likely to have a similar general folding pattern. Note that we will expand on the basis of this important <em>sequence &gt; structure &gt; function</em> relationship in the next lab.</p>
+<p>Many useful ‘rules of thumb’ are expressed in terms of percent identity. If two proteins have more than 45% identical residues in their optimal alignment they typically have very similar structures and are likely to have a similar function. If two proteins have more than 25% identical residues (but less than 45% identity), they are likely to have a similar general folding pattern. Note that we will expand on the basis of this important <em>sequence &gt; structure &gt; function</em> relationship in the next lab where we also explore the detection limits of standard BLAST searches for identifying remote homologs.</p>
 <p>Observations of a lower degree of sequence similarity cannot however rule out homology. Our very own late <a href="https://en.wikipedia.org/wiki/Russell_Doolittle">Russ Doolittle</a> defined the region between 18-25% sequence identity as the “twilight zone” in which the suggestion of homology is tantalizing but dangerous. Below the <strong>twilight zone</strong> is a region where pairwise sequence alignments tell us very little - sometimes called the “midnight zone”.</p>
 <p>Our next class will introduce more advanced topics including profile and structure based approaches that can delve deeper into these important, but often hard to detect, sequence-structure-function relationships.</p>
 </section>
