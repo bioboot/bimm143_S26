@@ -5,12 +5,15 @@ Website repo for UC San Diego's BIMM143 undergraduate bioinformatics lab course 
 For an example of the deployed website visit:  
 
 - http://thegrantlab.org/bimm143/  
-- http://bioboot.github.io/bimm143_W25/  
+- http://bioboot.github.io/bimm143_W26/  
 
 
 **Overview:** This is a [jekell based static site](http://jekyllrb.com/docs/home/) typically served from GitHub Pages. To view locally on your own machine (i.e. build locally before pushing or submitting a pull 
 request to this [bioboot GitHub](https://github.com/bioboot/bimm143_S25) repo or your own repo) you will need to have the **jekyll** and **github-pages** gem setup on your machine (see further 
 below for full instructions)
+
+
+> Side Note: If you are setting up a new course website and don't want all the bloat from my existing BIMM143 course then check out the streamlined https://github.com/bioboot/course_theme repo to get you started with a nice course Jekyll website theme like mine.
 
 
 ## Install ruby, jekyll and github-pages 
@@ -91,4 +94,4 @@ Now add our new repo and push changes:
   	git remote add origin git@github.com:bioboot/bimm143_F25.git  
   	git push -u origin gh-pages  
 
-Then preview your new site online: https://bioboot.github.io/bimm143_F25/ and visit the repo itself to see if everything is ship-shape: https://github.com/bioboot/bimm143_F25  
+Then preview your new site online: For example https://bioboot.github.io/bimm143_W26/ and visit the repo itself to see if everything is ship-shape: https://github.com/bioboot/bimm143_W26  
