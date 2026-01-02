@@ -26,18 +26,18 @@ Clicking on the topics below will take you to supporting class content including
 | 3  | 5  | [**Data exploration and visualization in R**](#5) <br> The exploratory data analysis mindset, Data visualization best practices, Simple base graphics (including scatterplots, histograms, bar graphs, dot chats, boxplots and heatmaps), Building more complex charts with ggplot.                                                                                                                                                                                                                                                       |
 | 3  | 6 | [**Why, when and how of writing your own R functions**](#6) <br> The basics of writing your own functions that promote code robustness, reduce duplication and facilitate code re-use. Extending functionality and utility with R packages from CRAN and BioConductor, Working with Bio3D for molecular data.                                                                                                                                                                                                                                                                                       |
 | 4  | 7 | [**Introduction to machine learning for Bioinformatics 1**](#7) <br> Unsupervised learning, K-means clustering, Hierarchical clustering, Heatmap representations. Dimensionality reduction, Principal Component Analysis (PCA)                                                                                                                                                                                                                                            |
-| 4  | 8 | [**Unsupervised learning mini-project**](#8) <br> Longer hands-on session with unsupervised learning analysis of cancer cells further highlighting Practical considerations and best practices for the analysis and visualization of high dimensional datasets                                                                                                                             |
-| 5 | 9 | [**Candy Mini-Project**](#9) <br> A fun and topical mini-project with unsupervised learning analysis of halloween_candy, Practical considerations and best practices for the exploratory analysis and visualization of high dimensional datasets.                                                                                                                                                                         |
+| 4  | 8 | **Project:** [**Unsupervised learning mini-project**](#8) <br> Longer hands-on session with unsupervised learning analysis of cancer cells further highlighting Practical considerations and best practices for the analysis and visualization of high dimensional datasets                                                                                                                             |
+| 5 | 9 | **Project:** [**Candy mini-project**](#9) <br> A fun and topical mini-project with unsupervised learning analysis of halloween_candy, Practical considerations and best practices for the exploratory analysis and visualization of high dimensional datasets.                                                                                                                                                                         |
 | 5 | 10 | [**Structural Bioinformatics (pt1)**](#10) <br> Comparative structure and sequence analysis. Working with sequence and structure data in R. (If time allows) Protein motion and conformational variants, Molecular simulation and small molecule docking and drug optimization.                                                                                                                                                                                                                                             |
 | 6| 11 | [**Structural Bioinformatics (pt2 AlphaFold)**](#11) <br> The new age of structural biology. Structure prediction with AlphaFold2 and the importance of learning from Multiple Sequence Alignments (MSAs). ESM-Fold and large language models for protein structure.                                                                                                                                               |
 | 6 | 12 | [**Genome informatics and high throughput sequencing**](#12) <br> Searching genes and gene functions, Genome databases, Variation in the Genome, High-throughput sequencing technologies, biological applications, bioinformatics analysis methods; The Galaxy platform along with resources from the EBI & UCSC.  <br> **N.B.** This is an **online only session!**    | 
 | 7 | 13 | [**Transcriptomics, RNA-Seq analysis, and the interpretation of gene lists**](#13) <br> RNA-Seq differential expression tests, RNA-Seq statistics, Counts and FPKMs and avoiding P-value misuse, Hands-on analysis of RNA-Seq data with R. Gene functional annotation, Functional databases KEGG, InterPro, GO ontologies and functional enrichment.    |
-| 7  |  14 | [**RNA-Seq mini project**](#14) <br> Differential expression analysis project with DESeq2 followed by gene enrichment and functional annotation with KEGG, InterPro, and GO ontologies.                                                                                                                                                                                                                                                                                  |
+| 7  |  14 | **Project:** [**RNA-Seq mini project**](#14) <br> Differential expression analysis project with DESeq2 followed by gene enrichment and functional annotation with KEGG, InterPro, and GO ontologies.                                                                                                                                                                                                                                                                                  |
 | 8  | 15  | [**Hands-on with Git and GitHub**](#15) <br> Why you should use a version control system, How to perform common operations with Git. Creating and working with your own GitHub repos and navagating and using those of others.                                                                      |
 | 8  | 16 | [**Essential UNIX for bioinformatics**](#16) <br> Bioinformatics on the command line, Understanding processes, File system structure, Connecting to remote servers, Redirection, streams and pipes, Workflows for batch processing, Launching and using AWS EC2 instances (A.K.A. Virtual Machines).                                                                                                                                                                                                                                              |
 | 9  | 17  | [**Analyzing sequencing data in the cloud**](#17) <br> A mini-project using AWS EC2 to query, download, decompress and analyze large data sets from the Sequence Read Archive. Practical considerations and best practices for installing bioinformatics software on Linux, transfering large data sets, and performing analysis either locally or on AWS.  |
-| 9  | 18 | [**Investigating pertussis resurgence mini project**](#18) <br> A topical mini-project using web-scraping,JSON based APIs and advanced dplyr and ggplot to investigate brand new datasets associated with pertussis cases and longitudinal RNA-Seq on the immune response to vaccination.   |
-| 10  | 19 | [**Mini Project: Cancer Mutation Analysis**](#19) <br> A mini-project for independent analysis of NGS data on tumor specific mutations.  |
+| 9  | 18 | **Project:** [**Investigating pertussis resurgence mini-project**](#18) <br> A topical mini-project using web-scraping,JSON based APIs and advanced dplyr and ggplot to investigate brand new datasets associated with pertussis cases and longitudinal RNA-Seq on the immune response to vaccination.   |
+| 10  | 19 | **Project:** [**Cancer mutation analysis mini-project**](#19) <br> A mini-project for independent analysis of NGS data on tumor specific mutations.  |
 | 10 | 20 | [**Portfolio building and discussion of bioinformatics in industry**](#20) <br>Course summary and review, Making a public facing GitHub pages portfolio of your bioinformatics work; <br> Livestream interview with leading bioinformatics and genomics scientists from industry. <br> **Project: Find a gene assignment due\!**        |
 
 
@@ -415,9 +415,21 @@ Unsupervised learning, supervised learning and reinforcement learning; Focus on 
 
 
 ---
-<a name="9"></a> 
+<a name="9"></a>
+## 9: Candy Mini-Project
 
-## 9: Structural Bioinformatics (pt1)      
+**Topics:** 
+A fun and topical mini-project with unsupervised learning analysis of halloween_candy, Practical considerations and best practices for the analysis and visualization of high dimensional datasets.  
+
+- Lab: [Mini-Project: Exploratory analysis of Halloween cand]({{ site.baseurl }}/class-material/lab09_Halloween_candy.html){:.no-push-state}{:target="_blank"}.   
+
+
+
+
+---
+<a name="10"></a> 
+
+## 10: Structural Bioinformatics (pt1)      
 **Topics**: Protein structure function relationships, Protein structure and visualization resources, Modeling energy as a function of structure, Homology modeling, AlphaFold, Predicting functional dynamics, Inferring protein function from structure.
 
 **Goal**: 
@@ -446,18 +458,6 @@ Unsupervised learning, supervised learning and reinforcement learning; Focus on 
 
 
 ---
-<a name="10"></a>
-## 10: Halloween Candy Mini-Project
-
-**Topics:** 
-A fun and topical mini-project with unsupervised learning analysis of halloween_candy, Practical considerations and best practices for the analysis and visualization of high dimensional datasets.  
-
-- Lab: [Mini-Project: Exploratory analysis of Halloween cand]({{ site.baseurl }}/class-material/lab09_Halloween_candy.html){:.no-push-state}{:target="_blank"}.   
-
-
-
-
----
 <a name="11"></a>
 ## 11: Structural Bioinformatics (pt2. Focus on new AlphaFold2)  
 
@@ -473,7 +473,45 @@ The new age of structural biology. Structure prediction with AlphaFold2 and the 
 
 ---
 <a name="12"></a>
-## 12: Transcriptomics and the analysis of RNA-Seq data
+## 12: Genome informatics (online class)
+
+**Topics:** 
+Genome sequencing technologies past, present and future (Sanger, Shotgun, PacBio, Illumina, toward the $500 human genome), Biological applications of sequencing, Variation in the genome, RNA-Sequencing for gene expression analysis; Major genomic databases, tools and visualization resources from the EBI & UCSC, The Galaxy platform for quality control and analysis; Sample Galaxy RNA-Seq workflow with FastQC and Bowtie2. **N.B.** This is an **online-only class session**.  
+
+**Goals:**
+- Appreciate and describe in general terms the rapid advances in sequencing technologies and the new areas of investigation that these advances have made accessible.  
+- Understand the process by which genomes are currently sequenced and the bioinformatics processing and analysis required for their interpretation.  
+- For a genomic region of interest (e.g. the neighborhood of a particular SNP), use a genome browser to view nearby genes, transcription factor binding regions, epigenetic information, etc.  
+- Be able to use the Galaxy platform for basic RNA-Seq analysis from raw reads to expression value determination.  
+- Understand the FASTQ file format and the information it holds.  
+- Understand the SAM/BAM file format and the information it holds.  
+
+**Videos:**  
+- 12.1 - [Introduction to genomics](http://youtu.be/QWOYBFfsKIE){:.no-push-state}{:target="_blank"},   
+- 12.2 - [Sequencing methods](https://www.ibiology.org/techniques/dna-sequencing/){:.no-push-state}{:target="_blank"} from Jonathan Weissman (UCSF),    
+- 12.3 - [The basics of RNASeq work-flows](http://youtu.be/PCn9GiD4cUI){:.no-push-state}{:target="_blank"},   
+- 12.4 - Optional: [Lessons from the Human Genome Project](https://www.youtube.com/watch?v=qOW5e4BgEa4){:.no-push-state}{:target="_blank"}.   
+
+**Supporting material:**
+- Lecture Slides: [Large PDF]({{ site.baseurl }}/class-material/lecture13_BIMM143-large.pdf){:.no-push-state}{:target="_blank"}, [Small PDF]({{ site.baseurl }}/class-material/lecture13_BIMM143-small.pdf){:.no-push-state}{:target="_blank"},
+- Lab: [Hands-on section worksheet]({{ site.baseurl }}/class-material/lab12_galaxy.pdf){:.no-push-state}{:target="_blank"} (as PDF form),
+- Lab: Live screencast [video walk-through](https://youtu.be/jfAlMYAJNw8){:target="_blank"}{:.no-push-state} with section time-stamps. 
+- [Galaxy Server](https://usegalaxy.org){:target="_blank"}{:.no-push-state}, create a free account for section 3 of the lab.  
+- RNA-Seq data files: [HG00109_1.fastq]({{ site.baseurl }}/class-material/HG00109_1.fastq){:.no-push-state}, [HG00109_2.fastq]({{ site.baseurl }}/class-material/HG00109_2.fastq){:.no-push-state}, [genes.chr17.gtf]({{ site.baseurl }}/class-material/genes.chr17.gtf){:.no-push-state}, [Expression genotype results]({{ site.baseurl }}/class-material/rs8067378_ENSG00000172057.6.txt){:.no-push-state}.
+- [SAM/BAM file format description]({{ site.baseurl }}//class-material/sam_format/){:.no-push-state}{:target="_blank"}.  
+- Student Hours: [{{ site.data.authors.corelinks.officetime }}]({{ site.data.authors.corelinks.officehours }}){:.no-push-state}{:target="_blank"},   
+
+- Feedback: [Muddy point assessment](https://forms.gle/Qx4UTSc4zkpafRvq9){:.no-push-state}{:target="_blank"}.  
+
+
+
+**Homework**:   
+- **Population analysis**: Submit to GradeScope your RMarkdown/Quarto generated PDF with working code, output and narrative text answering Q13 and Q14 in this weeks [Hands-on section worksheet]({{ site.baseurl }}/class-material/lab12_galaxy.pdf){:.no-push-state}{:target="_blank"}.   
+
+
+---
+<a name="13"></a>
+## 13: Transcriptomics and the analysis of RNA-Seq data
 
 **Topics:** 
 Analysis of RNA-Seq data with R, Differential expression tests, RNA-Seq statistics, Counts and FPKMs, Normalizing for sequencing depth, DESeq2 analysis. Gene finding and functional annotation from high throughput sequencing data, Functional databases KEGG, InterPro, GO ontologies and functional enrichment.  
@@ -487,9 +525,9 @@ Analysis of RNA-Seq data with R, Differential expression tests, RNA-Seq statisti
 - Perform a GO analysis to identify the pathways relevant to a set of genes (e.g. identified by transcriptomic study or a proteomic experiment). Use both Bioconductor packages and online tools to interpret gene lists and annotate potential gene functions.
 
 **Videos:**
-- 12.1 - [Differential expression analysis of RNA-Seq data](http://youtu.be/vn5Fy2VVWBw){:.no-push-state}{:target="_blank"},  
-- 12.2 - [Differential expression tests and pathway analysis](http://youtu.be/EIMK4TSnQLE){:.no-push-state}{:target="_blank"},    
-- 12.3 - [Installing Bioconductor and DESeq2](http://youtu.be/aekKXg0U1Rg){:.no-push-state}{:target="_blank"}.  
+- 13.1 - [Differential expression analysis of RNA-Seq data](http://youtu.be/vn5Fy2VVWBw){:.no-push-state}{:target="_blank"},  
+- 13.2 - [Differential expression tests and pathway analysis](http://youtu.be/EIMK4TSnQLE){:.no-push-state}{:target="_blank"},    
+- 13.3 - [Installing Bioconductor and DESeq2](http://youtu.be/aekKXg0U1Rg){:.no-push-state}{:target="_blank"}.  
 - Lab screencast - [Live video walk-through](https://youtu.be/HnT1YL_KxQk){:target="_blank"}{:.no-push-state}.      
 
 
@@ -512,12 +550,6 @@ Analysis of RNA-Seq data with R, Differential expression tests, RNA-Seq statisti
 
 **Homework:**
 - Submit your completed PDF lab report to [GradeScope]({{ site.data.authors.corelinks.gradescope }}){:.no-push-state}{:target="_blank"},  
-
-
----
-## 13: Veterans Day holiday
-
-No class today. 
 
 
 --- 
@@ -600,52 +632,19 @@ Bioinformatics on the command line, Why do we use UNIX for bioinformatics? UNIX 
 
 ---
 <a name="17"></a>
-## 17: Genome informatics (online class)
-
+## 17: Analyzing sequencing data in the cloud
+  
 **Topics:** 
-Genome sequencing technologies past, present and future (Sanger, Shotgun, PacBio, Illumina, toward the $500 human genome), Biological applications of sequencing, Variation in the genome, RNA-Sequencing for gene expression analysis; Major genomic databases, tools and visualization resources from the EBI & UCSC, The Galaxy platform for quality control and analysis; Sample Galaxy RNA-Seq workflow with FastQC and Bowtie2. **N.B.** This is an **online-only class session**.  
+A mini-project whre we use bespoke cloud computing resources to query, download, decompress and analyze large data sets from NCBI’s main Sequence Read Archive (SRA). Practical considerations and best practices for installing bioinformatics software on Linux, transfering large data sets, and performing analysis either locally or on AWS.  
 
-**Goals:**
-- Appreciate and describe in general terms the rapid advances in sequencing technologies and the new areas of investigation that these advances have made accessible.  
-- Understand the process by which genomes are currently sequenced and the bioinformatics processing and analysis required for their interpretation.  
-- For a genomic region of interest (e.g. the neighborhood of a particular SNP), use a genome browser to view nearby genes, transcription factor binding regions, epigenetic information, etc.  
-- Be able to use the Galaxy platform for basic RNA-Seq analysis from raw reads to expression value determination.  
-- Understand the FASTQ file format and the information it holds.  
-- Understand the SAM/BAM file format and the information it holds.  
+- Lab: [Obtaining and processing SRA datasets on AWS]({{ site.baseurl }}/class-material/aws_03.html){:.no-push-state}{:target="_blank"},  
+- AWS Console URL: [https://awsed.ucsd.edu/](https://awsed.ucsd.edu/){:.no-push-state}{:target="_blank"}.  
 
-**Videos:**  
-- 17.1 - [Introduction to genomics](http://youtu.be/QWOYBFfsKIE){:.no-push-state}{:target="_blank"},   
-- 17.2 - [Sequencing methods](https://www.ibiology.org/techniques/dna-sequencing/){:.no-push-state}{:target="_blank"} from Jonathan Weissman (UCSF),    
-- 17.3 - [The basics of RNASeq work-flows](http://youtu.be/PCn9GiD4cUI){:.no-push-state}{:target="_blank"},   
-- 17.4 - Optional: [Lessons from the Human Genome Project](https://www.youtube.com/watch?v=qOW5e4BgEa4){:.no-push-state}{:target="_blank"}.   
-
-**Supporting material:**
-- Lecture Slides: [Large PDF]({{ site.baseurl }}/class-material/lecture13_BIMM143-large.pdf){:.no-push-state}{:target="_blank"}, [Small PDF]({{ site.baseurl }}/class-material/lecture13_BIMM143-small.pdf){:.no-push-state}{:target="_blank"},
-- Lab: [Hands-on section worksheet]({{ site.baseurl }}/class-material/lab12_galaxy.pdf){:.no-push-state}{:target="_blank"} (as PDF form),
-- Lab: Live screencast [video walk-through](https://youtu.be/jfAlMYAJNw8){:target="_blank"}{:.no-push-state} with section time-stamps. 
-- [Galaxy Server](https://usegalaxy.org){:target="_blank"}{:.no-push-state}, create a free account for section 3 of the lab.  
-- RNA-Seq data files: [HG00109_1.fastq]({{ site.baseurl }}/class-material/HG00109_1.fastq){:.no-push-state}, [HG00109_2.fastq]({{ site.baseurl }}/class-material/HG00109_2.fastq){:.no-push-state}, [genes.chr17.gtf]({{ site.baseurl }}/class-material/genes.chr17.gtf){:.no-push-state}, [Expression genotype results]({{ site.baseurl }}/class-material/rs8067378_ENSG00000172057.6.txt){:.no-push-state}.
-- [SAM/BAM file format description]({{ site.baseurl }}//class-material/sam_format/){:.no-push-state}{:target="_blank"}.  
-- Student Hours: [{{ site.data.authors.corelinks.officetime }}]({{ site.data.authors.corelinks.officehours }}){:.no-push-state}{:target="_blank"},   
-
-- Feedback: [Muddy point assessment](https://forms.gle/Qx4UTSc4zkpafRvq9){:.no-push-state}{:target="_blank"}.  
-
-
-
-**Homework**:   
-- **Population analysis**: Submit to GradeScope your RMarkdown/Quarto generated PDF with working code, output and narrative text answering Q13 and Q14 in this weeks [Hands-on section worksheet]({{ site.baseurl }}/class-material/lab12_galaxy.pdf){:.no-push-state}{:target="_blank"}.   
 
 
 ---
 <a name="18"></a>
-## 18: Thanksgiving Holiday 
-
-Happy thanksgiving folks\! 
-
-
----
-<a name="19"></a>
-## 19: Mini Project: Investigating Pertussis Resurgence 
+## 18: Mini Project: Investigating Pertussis Resurgence 
 
 **Topics:** 
 A topical mini-project using web-scraping, JSON based APIs and advanced dplyr and ggplot to investigate brand new datasets associated with pertussis cases and longitudinal RNA-Seq on the immune response to distinct vaccination strategies.  
@@ -663,6 +662,22 @@ A topical mini-project using web-scraping, JSON based APIs and advanced dplyr an
 **Homework**:   
 -  Generate a complete lab report with all sections and question responses for submission to gradescope.  
 - There are no homework quiz questions this week.
+
+
+---
+<a name="19"></a>
+## 19: Mini Project: Cancer Mutation Analysis (optional online class)
+
+**Topics:** 
+A mini-project for independent analysis of NGS data on tumor specific mutations.   
+
+- Lab: [Class 19 labsheet PDF]({{ site.baseurl }}/class-material/lab19.pdf){:.no-push-state}{:target="_blank"},  
+- Additional resources: [Student Specific Sequences]({{ site.baseurl }}/class-material/lab19_sequence_listing.html){:.no-push-state}{:target="_blank"},  
+- Feedback: [Muddy-Point-Assessment](){:.no-push-state}.
+
+
+**Homework**:   
+- Upload your completed labsheet PDF to GradeScope.  
 
 
 ---
@@ -687,40 +702,6 @@ Today’s lecture and hands-on sessions introduce Git, currently the most popula
 
 - Resource for going further: [Happy Git with R](https://happygitwithr.com/){:.no-push-state}{:target="_blank"},  
 - DataCamp: [Bioinformatics Extension Track](https://bioboot.github.io/bimm143_W20/class-material/datacamp_extras.pdf){:.no-push-state}{:target="_blank"} 
-
-
-
-
-
----
-<a name="22"></a>
-## Bonus: Analyzing sequencing data in the cloud
-  
-**Topics:** 
-A mini-project whre we use bespoke cloud computing resources to query, download, decompress and analyze large data sets from NCBI’s main Sequence Read Archive (SRA). Practical considerations and best practices for installing bioinformatics software on Linux, transfering large data sets, and performing analysis either locally or on AWS.  
-
-- Lab: [Obtaining and processing SRA datasets on AWS]({{ site.baseurl }}/class-material/aws_03.html){:.no-push-state}{:target="_blank"},  
-- AWS Console URL: [https://awsed.ucsd.edu/](https://awsed.ucsd.edu/){:.no-push-state}{:target="_blank"}.  
-
-
-
----
-<a name="23"></a>
-## Bonus: Mini Project: Cancer Mutation Analysis (optional online class)
-
-**Topics:** 
-A mini-project for independent analysis of NGS data on tumor specific mutations.   
-
-- Lab: [Class 19 labsheet PDF]({{ site.baseurl }}/class-material/lab19.pdf){:.no-push-state}{:target="_blank"},  
-- Additional resources: [Student Specific Sequences]({{ site.baseurl }}/class-material/lab19_sequence_listing.html){:.no-push-state}{:target="_blank"},  
-- Feedback: [Muddy-Point-Assessment](){:.no-push-state}.
-
-
-**Homework**:   
-- Upload your completed labsheet PDF to GradeScope.  
-
-
-
 
 
 
