@@ -284,6 +284,7 @@ The exploratory data analysis mindset, Data visualization best practices, Simple
 - Background Slides: [Large PDF]({{ site.baseurl }}/class-material/lecture05-BIMM143-large.pdf){:.no-push-state}{:target="_blank"}, [Small PDF]({{ site.baseurl }}/class-material/lecture05-BIMM143-small.pdf){:.no-push-state}{:target="_blank"},  
 - Lab: [Hands-on worksheet]({{ site.baseurl }}/class-material/lab05.html){:.no-push-state}{:target="_blank"},
 - Lab: Live screencast [video walk-through](https://youtu.be/p9ap6X1V3mo){:target="_blank"}{:.no-push-state}.
+- NoteBookLM: Preloaded [R Foundations for Data Analysis and Visualization Notebook](https://notebooklm.google.com/notebook/b705e744-3827-4f56-8ac4-c428f774b0f9){:target="_blank"}{:.no-push-state},  
 - Student Hours: [{{ site.data.authors.corelinks.officetime }}]({{ site.data.authors.corelinks.officehours }}){:.no-push-state}{:target="_blank"},   
 - Feedback: [Muddy point assessment](https://forms.gle/FJHD9Bnrmgj32Tk69){:.no-push-state}{:target="_blank"},  
  
