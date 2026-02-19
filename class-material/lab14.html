@@ -3079,7 +3079,7 @@ float: right;
 }
 </style>
 <p>Barry Grant &lt; <a href="http://thegrantlab.org/bimm143/" class="uri">http://thegrantlab.org/bimm143/</a> &gt;<br />
-2026-02-19 (08:58:54 on Thu, Feb 19)</p>
+2026-02-19 (09:21:12 on Thu, Feb 19)</p>
 <div id="overview" class="section level1">
 <h1>Overview</h1>
 <p>Analysis of high-throughput biological data typically yields a list
@@ -3115,8 +3115,8 @@ approaches and outstanding challenges</em>.&quot; <a href="http://journals.plos.
 Comput Biol 8.2 (2012): e1002375</a>.</li>
 </ul>
 </blockquote>
-<div id="patway-analysis-with-r-and-bioconductor" class="section level2">
-<h2>Patway analysis with R and Bioconductor</h2>
+<div id="pathway-analysis-with-r-and-bioconductor" class="section level2">
+<h2>Pathway analysis with R and Bioconductor</h2>
 <p>There are many freely available tools for pathway or
 over-representation analysis. As of Nov 2017 Bioconductor alone has over
 <a href="http://bioconductor.org/packages/release/BiocViews.html#___GeneSetEnrichment">80
@@ -3141,7 +3141,7 @@ pathway (gene set) may suggest mechanistic changes.</p>
 </div>
 <div id="about-our-input-data" class="section level2">
 <h2>About our Input Data</h2>
-<p>The data for for hands-on session comes from GEO entry: <a href="http://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE37704">GSE37704</a>,
+<p>The data for our hands-on session comes from GEO entry: <a href="http://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE37704">GSE37704</a>,
 which is associated with the following publication:</p>
 <ul>
 <li>Trapnell C, Hendrickson DG, Sauvageau M, Goff L et al.
@@ -3172,7 +3172,7 @@ DESeq2 for the first time. We will use it again today!</p>
 <div class="sourceCode" id="cb2"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb2-1"><a href="#cb2-1" tabindex="-1"></a>metaFile <span class="ot">&lt;-</span> <span class="st">&quot;data/GSE37704_metadata.csv&quot;</span></span>
 <span id="cb2-2"><a href="#cb2-2" tabindex="-1"></a>countFile <span class="ot">&lt;-</span> <span class="st">&quot;data/GSE37704_featurecounts.csv&quot;</span></span>
 <span id="cb2-3"><a href="#cb2-3" tabindex="-1"></a></span>
-<span id="cb2-4"><a href="#cb2-4" tabindex="-1"></a><span class="co"># Import metadata and take a peak</span></span>
+<span id="cb2-4"><a href="#cb2-4" tabindex="-1"></a><span class="co"># Import metadata and take a peek</span></span>
 <span id="cb2-5"><a href="#cb2-5" tabindex="-1"></a>colData <span class="ot">=</span> <span class="fu">read.csv</span>(metaFile, <span class="at">row.names=</span><span class="dv">1</span>)</span>
 <span id="cb2-6"><a href="#cb2-6" tabindex="-1"></a><span class="fu">head</span>(colData)</span></code></pre></div>
 <div data-pagedtable="false">
@@ -3191,7 +3191,7 @@ DESeq2 for the first time. We will use it again today!</p>
 <p>Hmm... remember that we need the <code>countData</code> and
 <code>colData</code> files to match up so we will need to remove that
 odd first column in <code>countData</code> namely
-<code>contData$length</code>.</p>
+<code>countData$length</code>.</p>
 <div class="q_box">
 <blockquote>
 <p><strong>Q</strong>. Complete the code below to remove the troublesome
@@ -3233,7 +3233,7 @@ return and how could you use it in this context?</p>
 <h2>Running DESeq2</h2>
 <p>Nice now lets setup the DESeqDataSet object required for the
 <strong>DESeq()</strong> function and then run the DESeq pipeline. This
-is again similar to our last days hands-on session.</p>
+is again similar to our last day&#39;s hands-on session.</p>
 <div class="sourceCode" id="cb8"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb8-1"><a href="#cb8-1" tabindex="-1"></a>dds <span class="ot">=</span> <span class="fu">DESeqDataSetFromMatrix</span>(<span class="at">countData=</span>___,</span>
 <span id="cb8-2"><a href="#cb8-2" tabindex="-1"></a>                             <span class="at">colData=</span>___,</span>
 <span id="cb8-3"><a href="#cb8-3" tabindex="-1"></a>                             <span class="at">design=</span><span class="sc">~</span>___)</span>
@@ -3279,8 +3279,8 @@ at the default 0.1 p-value cutoff.</p>
 ## [2] see &#39;independentFiltering&#39; argument of ?results</code></pre>
 </div>
 </div>
-<div id="volcono-plot" class="section level2">
-<h2>Volcono plot</h2>
+<div id="volcano-plot" class="section level2">
+<h2>Volcano Plot</h2>
 <p>Now we will make a volcano plot, a commonly produced visualization
 from this type of data that we introduced last day. Basically it&#39;s a
 plot of log2 fold change vs -log adjusted p-value.</p>
@@ -3427,7 +3427,7 @@ bioconductor packages:</p>
 <div class="sourceCode" id="cb24"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb24-1"><a href="#cb24-1" tabindex="-1"></a><span class="co"># Run in your R console (i.e. not your Rmarkdown doc!)</span></span>
 <span id="cb24-2"><a href="#cb24-2" tabindex="-1"></a>BiocManager<span class="sc">::</span><span class="fu">install</span>( <span class="fu">c</span>(<span class="st">&quot;pathview&quot;</span>, <span class="st">&quot;gage&quot;</span>, <span class="st">&quot;gageData&quot;</span>) )</span>
 <span id="cb24-3"><a href="#cb24-3" tabindex="-1"></a></span>
-<span id="cb24-4"><a href="#cb24-4" tabindex="-1"></a><span class="co"># For old vesrsions of R only (R &lt; 3.5.0)!</span></span>
+<span id="cb24-4"><a href="#cb24-4" tabindex="-1"></a><span class="co"># For old versions of R only (R &lt; 3.5.0)!</span></span>
 <span id="cb24-5"><a href="#cb24-5" tabindex="-1"></a><span class="co">#source(&quot;http://bioconductor.org/biocLite.R&quot;)</span></span>
 <span id="cb24-6"><a href="#cb24-6" tabindex="-1"></a><span class="co">#biocLite( c(&quot;pathview&quot;, &quot;gage&quot;, &quot;gageData&quot;) )</span></span></code></pre></div>
 <p>Now we can load the packages and setup the KEGG data-sets we
@@ -3506,7 +3506,7 @@ versus pathways that are down-regulated.</p>
 <pre><code>## $names
 ## [1] &quot;greater&quot; &quot;less&quot;    &quot;stats&quot;</code></pre>
 <p>It is a list with three elements, &quot;greater&quot;, &quot;less&quot; and &quot;stats&quot;.</p>
-<p>You can also see this in your <em>Environmnet</em> panel/tab window
+<p>You can also see this in your <em>Environment</em> panel/tab window
 of RStudio or use the R command <code>str(keggres)</code>.</p>
 <p>Like any list we can use the dollar syntax to access a named element,
 e.g. <code>head(keggres$greater)</code> and
@@ -3575,7 +3575,7 @@ pathways.</p>
 <div class="q_box">
 <blockquote>
 <p><strong>Q</strong>. Can you do the same procedure as above to plot
-the pathview figures for the top 5 down-reguled pathways?</p>
+the pathview figures for the top 5 down-regulated pathways?</p>
 </blockquote>
 </div>
 </div>
@@ -3593,7 +3593,7 @@ here.</p>
 <span id="cb39-4"><a href="#cb39-4" tabindex="-1"></a><span class="co"># Focus on Biological Process subset of GO</span></span>
 <span id="cb39-5"><a href="#cb39-5" tabindex="-1"></a>gobpsets <span class="ot">=</span> go.sets.hs[go.subs.hs<span class="sc">$</span>BP]</span>
 <span id="cb39-6"><a href="#cb39-6" tabindex="-1"></a></span>
-<span id="cb39-7"><a href="#cb39-7" tabindex="-1"></a>gobpres <span class="ot">=</span> <span class="fu">gage</span>(foldchanges, <span class="at">gsets=</span>gobpsets, <span class="at">same.dir=</span><span class="cn">TRUE</span>)</span>
+<span id="cb39-7"><a href="#cb39-7" tabindex="-1"></a>gobpres <span class="ot">=</span> <span class="fu">gage</span>(foldchanges, <span class="at">gsets=</span>gobpsets)</span>
 <span id="cb39-8"><a href="#cb39-8" tabindex="-1"></a></span>
 <span id="cb39-9"><a href="#cb39-9" tabindex="-1"></a><span class="fu">lapply</span>(gobpres, head)</span></code></pre></div>
 <pre><code>## $greater
@@ -3648,7 +3648,7 @@ here: <a href="https://reactome.org/user/guide" class="uri">https://reactome.org
 pathway-topology analysis with Reactome using the previous list of
 significant genes generated from our differential expression results
 above.</p>
-<p>First, Using R, output the list of significant genes at the 0.05
+<p>First, using R, output the list of significant genes at the 0.05
 level as a plain text file:</p>
 <div class="sourceCode" id="cb41"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb41-1"><a href="#cb41-1" tabindex="-1"></a>sig_genes <span class="ot">&lt;-</span> res[res<span class="sc">$</span>padj <span class="sc">&lt;=</span> <span class="fl">0.05</span> <span class="sc">&amp;</span> <span class="sc">!</span><span class="fu">is.na</span>(res<span class="sc">$</span>padj), <span class="st">&quot;symbol&quot;</span>]</span>
 <span id="cb41-2"><a href="#cb41-2" tabindex="-1"></a><span class="fu">print</span>(<span class="fu">paste</span>(<span class="st">&quot;Total number of significant genes:&quot;</span>, <span class="fu">length</span>(sig_genes)))</span></code></pre></div>
