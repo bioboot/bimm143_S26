@@ -668,7 +668,7 @@ A topical mini-project using web-scraping, JSON based APIs and advanced dplyr an
 
 ---
 <a name="19"></a>
-## 19: Mini Project: Cancer Mutation Analysis (optional online class)
+## 19: Mini Project: Cancer Mutation Analysis 
 
 **Topics:** 
 A mini-project for independent analysis of NGS data on tumor specific mutations.   
