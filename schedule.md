@@ -698,7 +698,8 @@ Today’s lecture and hands-on sessions introduce Git, currently the most popula
 
 **Supporting material:**
 - Lecture Slides: [Large PDF]({{ site.baseurl }}/class-material/lecture20_BIMM143-large.pdf){:.no-push-state}{:target="_blank"},  
-- Ether-pad: [**Feedback**](https://etherpad.wikimedia.org/p/bimm143_w26){:.no-push-state}{:target="_blank"}.  
+- Ether-pad: [**Feedback**](https://etherpad.wikimedia.org/p/bimm143_w26){:.no-push-state}{:target="_blank"},  
+- ITS: [Triton-GPT anonymous feedback](https://forms.gle/Kb5ooKr32LSmkiAZA){:.no-push-state}{:target="_blank"}.  
  
 
 
