@@ -15,7 +15,7 @@ Clicking on the topics below will take you to supporting class content including
 
 <br>
 
-| Week | Class | Topics for Winter 2026                                                                                                 |
+| Week | Class | Topics for Spring 2026                                                                                                 |
 | :--: | :--:  | :--------------------------------------------------------------------------------------------------------------------- |
 | 0  | 0 | [**Getting Oriented**](#0) <br> Course introduction, Learning goals & expectations, Meet the instructional team. Setup your computer with required software.                                                                                                                                               |
 | 1  | 1 | [**Welcome to Bioinformatics**](#1) <br> Biology is an information science, History of Bioinformatics, Types of data, Application areas and introduction to upcoming course segments, Hands on with major Bioinformatics databases and key online NCBI and EBI resources                                                                                                                                               |
@@ -210,7 +210,7 @@ Detecting remote sequence similarity, Substitution matrices, Database searching 
 **Homework**:   
 - [Questions](https://docs.google.com/document/d/1AjrDB-XdfZyJUZmA-_KEqkNB5P1iUrMkKyj8QjGRM50/copy){:.no-push-state}{:target="_blank"} click and select "make a copy" then follow instructions,   
 - Submit your completed *`03_Lab_report`* (i.e. filled in PDF form) to [GradeScope]({{ site.data.authors.corelinks.gradescope }}){:.no-push-state}{:target="_blank"},  
-- **DataCamp**: Sign-up to our [**26_bioinformatics** group/organization](https://app.datacamp.com/groups/26_bioinformatics/dashboard){:.no-push-state}{:target="_blank"} via the link in your UCSD email and **start** (you do not have to finish yet) [**Introduction to R!**](https://learn.datacamp.com/courses/free-introduction-to-r){:.no-push-state}{:target="_blank"} (we will complete this next week).  
+- **DataCamp**: Sign-up to our [**27_bioinformatics** group/organization](https://app.datacamp.com/groups/27_bioinformatics/){:.no-push-state}{:target="_blank"} via the link in your UCSD email and **start** (you do not have to finish yet) [**Introduction to R!**](https://learn.datacamp.com/courses/free-introduction-to-r){:.no-push-state}{:target="_blank"} (we will complete this next week).  
 - [RStudio and R download and setup]({{ site.baseurl }}/setup/).  
 
 
@@ -251,7 +251,7 @@ Why do we use R for bioinformatics? R language basics and the RStudio IDE, Major
 **Homework**:   
 - Answer the *`04_HW_quiz`* questions on [GradeScope]({{ site.data.authors.corelinks.gradescope }}){:.no-push-state}{:target="_blank"},  
 - Submit your rendered *`04_Lab_report`* (i.e. a PDF report generated from R) to [GradeScope]({{ site.data.authors.corelinks.gradescope }}){:.no-push-state}{:target="_blank"},  
-- **DataCamp**: Sign-up to our **26_bioinformatics group/organization** via the link in your UCSD email and **complete** [**Introduction to R!**](https://learn.datacamp.com/courses/free-introduction-to-r){:.no-push-state}{:target="_blank"} (4hrs).  
+- **DataCamp**: Sign-up to our **27_bioinformatics group/organization** via the link in your UCSD email and **complete** [**Introduction to R!**](https://learn.datacamp.com/courses/free-introduction-to-r){:.no-push-state}{:target="_blank"} (4hrs).  
     
 
 
