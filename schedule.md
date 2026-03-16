@@ -6,7 +6,7 @@ order: 2
 ---
 
 
-For Winter 2026 we are offering *two sections* of BIMM-143. Both sections cover identical material and meet **in-person** twice a week.  
+For Spring 2026 we are offering *two sections* of BIMM-143. Both sections cover identical material and meet **in-person** twice a week.  
 
 - Section 1 meets on Tuesday and Thursday at 9:30 - 12:30 pm in TATA 2501 ([Map](https://goo.gl/maps/Cd8z9Zexx6q){:target="_blank"}).  
 - Section 2 meets on Wednesday and Friday at 10:00 - 1:00pm in York 3050  ([Map](https://maps.app.goo.gl/5xMZTotbTaswEZvY9){:target="_blank"}).  
