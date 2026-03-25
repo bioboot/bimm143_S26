@@ -6,7 +6,7 @@ order: 2
 ---
 
 
-For the Spring 2026 quarter we will meet twice a week on Tuesday and Thursday at 9:30-12:30 pm in TATA 2501 ([Map](https://goo.gl/maps/Cd8z9Zexx6q){:target="_blank"}). Clicking on the topics below will take you to supporting class content including video lectures, hands-on "lab session" sheets, walk-through screencasts, required reading material and homework assignments.
+For the Spring 2026 quarter we will meet twice a week on Tuesday and Thursday at 10:30-1:30 pm in TATA 2501 ([Map](https://goo.gl/maps/Cd8z9Zexx6q){:target="_blank"}). Clicking on the topics below will take you to supporting class content including video lectures, hands-on "lab session" sheets, walk-through screencasts, required reading material and homework assignments.
 
 <br>
 
