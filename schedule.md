@@ -144,7 +144,7 @@ Sequence Alignment and Database Searching: Homology, Sequence similarity, Local 
 - Answer the *`02_HW_quiz`* questions on [GradeScope]({{ site.data.authors.corelinks.gradescope }}){:.no-push-state}{:target="_blank"},  
 - Submit your completed *`02_Lab_report`* (i.e. filled in PDF form) to [GradeScope]({{ site.data.authors.corelinks.gradescope }}){:.no-push-state}{:target="_blank"},  
 - Complete and submit the following [Alignment Problem]({{ site.baseurl }}/class-material/wk2_homework.pdf){:.no-push-state}{:target="_blank"},  
-- For next week please [install R and RStudio](https://www.datacamp.com/community/tutorials/installing-R-windows-mac-ubuntu){:.no-push-state}{:target="_blank"} and sign-up to our [**S25_bioinformatics** group](https://app.datacamp.com/groups/S25_bioinformatics/dashboard){:.no-push-state}{:target="_blank"} via the link on Piazza or in your UCSD email. We will use this from next week onward. However, feel free to get started with your first course [Introduction to R!](https://learn.datacamp.com/courses/free-introduction-to-r){:.no-push-state}{:target="_blank"}.  
+- For next week please [install R and RStudio](https://www.datacamp.com/community/tutorials/installing-R-windows-mac-ubuntu){:.no-push-state}{:target="_blank"} and sign-up to our [**27_bioinformatics** group](https://app.datacamp.com/groups/27_bioinformatics/dashboard){:.no-push-state}{:target="_blank"} via the link on Piazza or in your UCSD email. We will use this from next week onward. However, feel free to get started with your first course [Introduction to R!](https://learn.datacamp.com/courses/free-introduction-to-r){:.no-push-state}{:target="_blank"}.  
 
 
 - Readings: 
