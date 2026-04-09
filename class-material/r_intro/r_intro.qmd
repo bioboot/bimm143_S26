@@ -435,7 +435,7 @@ b <- c("A","G","A","A","C","T","T","A")
 ind <- which(a!=b)
 paste(a[ind], ind, b[ind], sep="")
 ```
-- What are the tree `functions()` in this code chunk and what do they do?
+- What are the three `functions()` in this code chunk and what do they do?
 - Can you change this code to print out the identical nucleotides?
 
 
