@@ -1,6 +1,10 @@
 <div id="_yDrawer">
   <div id="_sidebar" class="sidebar">
-    <div class="sidebar-bg" style="background-color:{{ color }};background-image:url({{ image }})"></div>
+    <div class="sidebar-bg"
+     style="background-color:{{ color }};
+            background-image:linear-gradient(rgba(16,85,102,.15), rgba(0,0,0,.85)),
+                             url({{ image }});
+            background-size: cover;"></div>
     <header class="sidebar-sticky" role="banner">
 
      <img src="{{ '/' | relative_url }}assets/img/UCSanDiegoLogo-White.png" alt="UC San Diego logo" width="400" height="76">
