@@ -18,3 +18,11 @@
 .figcaption, figcaption { color: #595959; }
 .read-more { color: #595959; }
 .faded { color: #595959; }
+
+/* WCAG Sidebar nav contrast fixes */
+.sidebar-nav .sidebar-nav-item {
+color: #ffffff !important;
+background-color: rgba(0, 0, 0, 0) !important;
+}
+
+
