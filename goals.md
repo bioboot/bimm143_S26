@@ -7,11 +7,12 @@ order: 5
 
 At the end of this course students will: 
 
-- Understand the increasing necessity for computation in modern life sciences research.
-- Be able to use and evaluate online bioinformatics resources including major biomolecular and genomic databases, search and analysis tools, genome browsers, structure viewers, and select quality control and analysis tools to solve problems in the biological sciences.
-- Be able to use the R environment to analyze bioinformatics data at scale. 
-- Understand the process by which genomes are currently sequenced and the bioinformatics processing and analysis required for their interpretation.
-- Be familiar with the research objectives of the bioinformatics related sub-disciplines of Genomics, Transcriptomics and Structural bioinformatics.
+- Understand the increasing necessity for computation in modern life sciences research.  
+- Be able to use and critically evaluate major bioinformatics resources, including biomolecular and genomic databases, sequence search and analysis tools, genome browsers, structure viewers, R-based analysis workflows, and course-approved AI assistants to solve problems in the biological sciences.  
+- Be able to use R and reproducible documents to import, clean, analyze, visualize, and interpret biological datasets at scale.  
+- Be able to critically evaluate computational and AI-generated outputs by checking them against biological knowledge, trusted databases, documentation, and reproducible analyses.  
+- Be able to communicate bioinformatics results clearly, transparently, and ethically, including appropriate documentation of AI use and collaboration.  
+- Be familiar with the research objectives of the bioinformatics related sub-disciplines of Genomics, Transcriptomics and Structural bioinformatics.  
 
 In short, students will develop a solid foundational knowledge of bioinformatics and be able to evaluate new biomolecular and genomic information using existing bioinformatic tools and resources. 
 
@@ -32,16 +33,18 @@ All students who receive a passing grade should be able to:
 | 5 | Calculate the alignment score between two nucleotide or protein sequences using a provided scoring matrix and be able to perform BLAST, PSI-BLAST, HMMER and protein structure based database searches and interpret the results in terms of the biological significance of an e-value. | 5, 10 |
 | 6 | Use R to read and parse comma-separated (.csv) formatted files ready for subsequent analysis. | 8, 9, 10, 11, 13, 15, 16 |
 | 7 | Perform elementary statistical analysis on biomolecular and "omics" datasets with R and produce informative graphical displays and data summaries. | 9, 10, 11, 13, 15, 16 |
-| 8 | View and interpret the structural models in the PDB. | 10, 11 |
+| 8 | View, manipulate, and interpret experimentally determined and predicted structural models, including models from the PDB and modern structure prediction tools. | 10, 11 |
 | 9 | Explain the outputs from structure prediction algorithms and small molecule docking approaches. | 11 |
-| 10 | Appreciate and describe in general terms the rapid advances in sequencing technologies and the new areas of investigation that these advances have made accessible. |  13, 14, 15 |
-| 11 | Understand the process by which genomes are currently sequenced and the bioinformatics processing and analysis required for their interpretation. |  13 |
-| 12 | For a genomic region of interest (e.g. the neighborhood of a particular gene), use a genome browser to view nearby genes, transcription factor binding regions, epigenetic information, etc.| 14 |
-| 13 | Given an RNA-Seq data file, find the set of significantly differentially expressed genes and use online tools to interpret gene lists and annotate potential gene functions. | 15, 16 |
-| 14 | Perform a GO analysis to identify the pathways relevant to a set of genes (e.g. identified by transcriptomic study or a proteomic experiment). | 16 |
-| 15 | Use the KEGG pathway database to look up interaction pathways. | 17 |
-| 16 | Use graph theory to represent biological data networks. | 17, 18 |
-| 17 | Understand the challenges in integrating and interpreting large heterogenous high throughput data sets into their functional context. | 19 |
-| 18 | Have an appreciation for the social impacts and ethical implications of how genomic sequence information is used in our society | 20 |
+| 10 | Appreciate and describe in general terms the rapid advances in sequencing technologies and the new areas of investigation that these advances have made accessible. |  12-15 |
+| 11 | Understand the process by which genomes are currently sequenced and the bioinformatics processing and analysis required for their interpretation. |  12 |
+| 12 | For a genomic region of interest (e.g. the neighborhood of a particular gene), use a genome browser to view nearby genes, transcription factor binding regions, epigenetic information, etc.| 1, 12 |
+| 13 | Given an RNA-Seq data file, find the set of significantly differentially expressed genes and use online tools to interpret gene lists and annotate potential gene functions. | 12, 13, 14 |
+| 14 | Perform a GO analysis to identify the pathways relevant to a set of genes (e.g. identified by transcriptomic study or a proteomic experiment). | 13, 14 |
+| 15 | Use pathway databases such as KEGG to investigate biological pathways and evaluate the strengths and limitations of pathway-based interpretation. | 13, 14 |
+| 16 | Use AI tools appropriately to support bioinformatics learning and analysis, including generating explanations, drafting code, debugging, summarizing documentation, and exploring alternative interpretations. | 4-19 |
+| 17 | Critically evaluate AI-generated code, explanations, citations, and biological claims by testing code, checking sources, validating outputs, and comparing results against trusted bioinformatics resources. | 18 |
+| 18 | Explain, debug, modify, and justify any submitted code or analysis, regardless of whether AI tools were used in its development. | 18 |
+| 19 | Explain the challenges of integrating and interpreting large, heterogeneous high-throughput datasets in functional and biological context. | 19 |
+| 20 | Have an appreciation for the social impacts and ethical implications of how genomic sequence information is used in our society | 20 |
 
 
