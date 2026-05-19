@@ -5,7 +5,7 @@ title: Git Conflict Rescue Cheat Sheet
 
 If `git pull` fails, Git is usually **protecting your work** — not breaking.
 
-> **Key idea:** Git will stop if pulling changes from GitHub might overwrite local work on your computer.
+ **Key idea:** Git will stop if pulling changes from GitHub might overwrite local work on your computer.
 
 ---
 
@@ -23,7 +23,7 @@ If these do not line up cleanly, Git asks you to make a choice before continuing
 
 ## Golden Rule
 
-> **Always run this before `git pull`:**
+> **Always run `git status` before `git pull`:**
 
 ```
 git status
@@ -252,6 +252,9 @@ git clean -fd
 ```
 git reset --hard HEAD
 ```
+
+Only use this one if you are sure you do not need the local changes.
+
 
 ---
 
